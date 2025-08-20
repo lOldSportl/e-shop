@@ -1,0 +1,24 @@
+spring:
+  security:
+    user:
+      name: user1
+      password: '0000'
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+    username: user1
+    password: '0000'
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: product-service
+
+server:
+  port: 8082
+
+jwt:
+  secret: my_very_long_and_very_secret_key12345678
+
+
