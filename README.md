@@ -1,29 +1,27 @@
-# E-Shop Microservices Project
+# E-Shop Microservices Project / Проект Интернет-Магазин (Микросервисы)
+
+---
 
 ## English Version
 
 ### Project Overview
 This is a sample e-commerce application built using **Spring Boot** microservices architecture. The project consists of three independent services:
 
-1. **Product Service** (`8082`) – manages products (CRUD operations).
-2. **Order Service** (`8083`) – manages orders, communicates with Product and User services via REST.
-3. **User Service** (`8084`) – manages users (CRUD operations).
+1. **Product Service** (`8082`) – manages products (CRUD operations).  
+2. **Order Service** (`8083`) – manages orders, communicates with Product and User services via REST.  
+3. **User Service** (`8084`) – manages users (CRUD operations).  
 
 Each service is independent and runs on its own port, enabling easy scaling and development.
 
----
-
 ### Technologies Used
-- **Java 17 / 23**
-- **Spring Boot 3**
-- **Spring Data JPA**
-- **PostgreSQL**
-- **REST API**
-- **Lombok**
-- **Maven**
+- **Java 17 / 23**  
+- **Spring Boot 3**  
+- **Spring Data JPA**  
+- **PostgreSQL**  
+- **REST API**  
+- **Lombok**  
+- **Maven**  
 - **Git**
-
----
 
 ### How to Run
 1. Clone the repository:
@@ -88,6 +86,7 @@ json
 GET all orders: GET http://localhost:8083/orders
 
 Project Structure
+
 e-shop/
 ├─ product-service/
 ├─ order-service/
