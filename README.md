@@ -1,4 +1,4 @@
-# E-Shop Microservices Project / Проект Интернет-Магазин (Микросервисы)
+# E-Shop Microservices Project
 
 ## English Version
 
